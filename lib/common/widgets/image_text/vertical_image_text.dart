@@ -1,3 +1,4 @@
+import 'package:e_commerce/common/widgets/images/circular_image.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
@@ -29,13 +30,11 @@ class UVerticalImageText extends StatelessWidget {
       child: Column(
         children: [
           /// Circular Image
-          UCircularContainer(
-            height: 56,
-            width: 56,
-            backgroundColor: backgroundColor ?? (dark ? UColors.dark : UColors.light),
-            padding: EdgeInsets.all(USizes.sm),
-            child: Image(image: AssetImage(image), fit: BoxFit.cover),
-          ),
+          UCircularImage(
+          height: 56,
+          width: 56,
+          image: image, isNetworkImage: true),
+
           SizedBox(height: USizes.spaceBtwItems / 2),
 
           /// Title

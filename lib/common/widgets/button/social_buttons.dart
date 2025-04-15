@@ -1,4 +1,6 @@
+import 'package:e_commerce/features/authentication/controllers/login/login_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../utils/constants/colors.dart';
 import '../../../utils/constants/images.dart';
@@ -11,11 +13,12 @@ class USocialButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(LoginController());
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         /// Google Button
-        buildButton(UImages.googleIcon, (){}),
+        buildButton(UImages.googleIcon, controller.googleSignIn),
         SizedBox(width: USizes.spaceBtwItems),
 
         /// Facebook Button

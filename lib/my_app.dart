@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'bindings/bindings.dart';
-import 'features/authentication/screens/onboarding/onboarding.dart';
 
 
 
