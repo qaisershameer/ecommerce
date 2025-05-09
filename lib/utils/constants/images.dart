@@ -52,21 +52,21 @@ class UImages{
 
   // -----[Products]-----
   // 1
-  static const String productImage1 = 'assets/products/product1.png';
+  static const String productImage1 = 'assets/products/product 1.png';
   // 2
-  static const String productImage2 = 'assets/products/product2.png';
+  static const String productImage2 = 'assets/products/product 2.png';
   // 3
-  static const String productImage3 = 'assets/products/product3.png';
+  static const String productImage3 = 'assets/products/product 3.png';
   // 4
-  static const String productImage4a = 'assets/products/product4.png';
-  static const String productImage4b = 'assets/products/product4 1.png';
-  static const String productImage4c = 'assets/products/product4 2.png';
-  static const String productImage4d = 'assets/products/product4 3.png';
-  static const String productImage4e = 'assets/products/product4 4.png';
+  static const String productImage4a = 'assets/products/product 4.png';
+  static const String productImage4b = 'assets/products/product 4 1.png';
+  static const String productImage4c = 'assets/products/product 4 2.png';
+  static const String productImage4d = 'assets/products/product 4 3.png';
+  static const String productImage4e = 'assets/products/product 4 4.png';
   // 5
-  static const String productImage5 = 'assets/products/product5.png';
+  static const String productImage5 = 'assets/products/product 5.png';
   // 6
-  static const String productImage6 = 'assets/products/product6.png';
+  static const String productImage6 = 'assets/products/product 6.png';
   // 7
   static const String productImage7 = 'assets/products/product 7.png';
   // 8
@@ -74,7 +74,7 @@ class UImages{
   // 9
   static const String productImage9 = 'assets/products/product 9.png';
   // 10
-  static const String productImage10 = 'assets/products/product10.png';
+  static const String productImage10 = 'assets/products/product 10.png';
   // 11
   static const String productImage11 = 'assets/products/product 11 bata socks.png';
   // 12
@@ -137,6 +137,7 @@ class UImages{
   // 38
   static const String productImage38a = 'assets/products/product 38.png';
   static const String productImage38b = 'assets/products/product 38 1.png';
+  static const String productImage38c = 'assets/products/product 38 2.png';
   // 39
   static const String productImage39 = 'assets/products/product 39.png';
   // 40
@@ -157,7 +158,7 @@ class UImages{
   // 47
   static const String productImage47 = 'assets/products/product 47.png';
   // 48
-  static const String productImage48 = 'assets/products/product 48 1.png';
+  static const String productImage48 = 'assets/products/product 48.png';
   // 49
   static const String productImage49a = 'assets/products/product 49.png';
   static const String productImage49b = 'assets/products/product 49 1.png';
@@ -203,18 +204,18 @@ class UImages{
   static const String productImage68 = 'assets/products/product 68.png';
 
   // Brands
-  static const String adidasLogo = 'assets/brands/adidas.png';
-  static const String appleLogo = 'assets/brands/apple.png';
+  static const String adidasLogo = 'assets/brands/adidas.jpg';
+  static const String appleLogo = 'assets/brands/apple.jpg';
   static const String bataLogo = 'assets/brands/bata.png';
   static const String bloodyLogo = 'assets/brands/bloody.png';
-  static const String breakoutLogo = 'assets/brands/breakout.png';
+  static const String breakoutLogo = 'assets/brands/breakout.jpg';
   static const String dariMoochLogo = 'assets/brands/dari_mooch.png';
-  static const String hpLogo = 'assets/brands/hp.png';
-  static const String interWoodLogo = 'assets/brands/interwood.png';
+  static const String hpLogo = 'assets/brands/hp.jpg';
+  static const String interWoodLogo = 'assets/brands/interwood.jpeg';
   static const String jLogo = 'assets/brands/j..png';
   static const String nDURELogo = 'assets/brands/ndure.png';
   static const String nikeLogo = 'assets/brands/nike.png';
-  static const String northStarLogo = 'assets/brands/north_star.png';
+  static const String northStarLogo = 'assets/brands/north_star.jpg';
   static const String poloLogo = 'assets/brands/polo.png';
 
   // Payment Methods

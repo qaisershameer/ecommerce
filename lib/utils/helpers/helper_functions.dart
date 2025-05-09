@@ -19,7 +19,10 @@ class UHelperFunctions{
       return Colors.red;
     } else if (value == 'Blue') {
       return Colors.blue;
-    } else if (value == 'Pink') {
+    } else if(value == 'Dark BLue'){
+      return Colors.blueGrey;
+    }
+    else if (value == 'Pink') {
       return Colors.pink;
     } else if (value == 'Grey') {
       return Colors.grey;
@@ -39,7 +42,9 @@ class UHelperFunctions{
       return Colors.teal;
     } else if (value == 'Indigo') {
       return Colors.indigo;
-    } else {
+    } else if(value == 'Silver') {
+      return Colors.grey;
+    }else {
       return null;
     }
   }
