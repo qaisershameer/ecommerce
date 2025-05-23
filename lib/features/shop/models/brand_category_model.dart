@@ -15,8 +15,8 @@ class BrandCategoryModel{
 
   Map<String, dynamic> toJson(){
     return {
-      'BrandId' : brandId,
-      'CategoryId' : categoryId
+      'brandId' : brandId,
+      'categoryId' : categoryId
     };
   }
 
@@ -24,8 +24,8 @@ class BrandCategoryModel{
     final data = snapshot.data() as Map<String, dynamic>;
 
     return BrandCategoryModel(
-        brandId: data['BrandId'] as String,
-        categoryId: data['CategoryId'] as String
+        brandId: data['brandId'] as String,
+        categoryId: data['categoryId'] as String
     );
   }
 }
